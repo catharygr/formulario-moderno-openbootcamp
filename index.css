@@ -16,7 +16,6 @@ body {
   align-self: flex-start;
   display: flex;
   gap: 20px;
-
 }
 
 .google-btn {
@@ -56,26 +55,19 @@ body {
 
 .t-btn {
   background-color: #1A73E8;
-  color: white;
   border: none;
   border-radius: 5px;
   height: 40px;
   display: flex;
   align-items: center;
-  padding: 0 15px;
+  padding: 2px ;
   cursor: pointer;
 }
-
-/* .t-btn {
-  padding: 0;
-  border-radius: 10px;
-  border:  none;
-} */
 
 .t-btn picture {
   width: 35px;
   height: 35px;
-  border-radius: 2px;
+  border-radius: 10px;
   display: flex;
   align-items: center  ;
   justify-content: center;
@@ -89,6 +81,12 @@ body {
   width: 100%;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.t-btn span {
+  color: white;
+  font-weight: 500;
+  padding: 15px;
 }
 
 .separator {
